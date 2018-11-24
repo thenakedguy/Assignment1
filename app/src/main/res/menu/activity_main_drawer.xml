@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Khoản Thu"
+            android:id="@+id/KhoanThu"/>
+        <item
+            android:title="Khoản Chi"
+            android:id="@+id/KhoanChi"/>
+        <item
+            android:title="Thống Kê"
+            android:id="@+id/ThongKe"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:title="Giới Thiệu" />
+            <item
+                android:id="@+id/exit"
+                android:title="Thoát" />
+        </menu>
+    </item>
+
+</menu>
